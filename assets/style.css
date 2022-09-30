@@ -1,0 +1,46 @@
+*{
+
+}
+
+/* *::after{
+    box-sizing: border-box;
+}
+
+*::before{
+    box-sizing: border-box;
+} */
+
+h1 {
+    background-color: bisque;
+}
+
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+.guessword{
+    display:flex;
+    background-color:  bisque;
+    border: 2px solid black;
+    width: 500px;
+    margin: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box2{
+    display:flex;
+    background-color:  bisque;
+    border: 2px solid black;
+    width: 500px;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.box2 h2{
+    margin-left: 10px;
+}
+
+
