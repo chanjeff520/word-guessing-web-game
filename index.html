@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,19 +12,20 @@
 <body>
     <header>
         <h1>Word Guessing Game</h1>
+        <button class="play" type="button">Play</button>
     </header>
 
     <div class="game">
         <section class="guessword">
             <h2> Guess the Word </h2>
-            <div> <!-- for guessing words --> </div>
+            <div id="guessContainer"></div>
         </section>
         <section class="box2">
-            <h2> Wins: <span> 0 </span id="Wins"></h2>
-            <h2> Losses: <span> 0 </span id="Losses"> </h2>
-            <h2> Time-Left: <span> 0 </span id="Time"> </h2>
+            <h2> Wins: <span id="winsId"> 0 </span></h2>
+            <h2> Losses: <span id="lossesId"> 0 </span> </h2>
+            <h2> Time-Left: <span id="timeId"> 0 </span> </h2>
         </section> 
     </div>
-    <style src="./assets/script.js"></style>
+    <script src="./assets/script.js"></Script>
 </body>
-</html>
+</html> 

@@ -2,18 +2,20 @@
 
 }
 
-/* *::after{
-    box-sizing: border-box;
+header {
+    text-align:center;
 }
-
-*::before{
-    box-sizing: border-box;
-} */
 
 h1 {
     background-color: bisque;
+    font-size: 300%
 }
 
+.play{
+    font-size:40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .game{
     display: flex;
@@ -44,3 +46,7 @@ h1 {
 }
 
 
+.play:hover {
+    -webkit-filter: brightness(150%);
+    box-shadow: 5px 10px 10px grey;
+}
